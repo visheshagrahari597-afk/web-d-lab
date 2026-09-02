@@ -59,7 +59,7 @@ body {
 .top th {
     height: 58px;
     border: 1px solid black;
-   background-color: #a6f4bd;
+   background-color: #a0ed90;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -76,7 +76,7 @@ body {
 .top td {
     height: 48px;
     border: 1px solid black;
-   background-color: #a6f4bd;
+   background-color: #a0ed90;
     padding: 0;
     text-align: center;
 }
