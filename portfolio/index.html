@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishesh Agrahari</title>
+  <meta name="description" content="Portfolio of Vishesh Agrahari, B.Tech CSIT student at GL Bajaj Institute of Technology & Management.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="aurora" aria-hidden="true">
+    <span class="a1"></span><span class="a2"></span><span class="a3"></span>
+  </div>
+
+  <!-- Opening title sequence -->
+  <header class="opening" id="top">
+    <div class="bar bar-top" aria-hidden="true"></div>
+    <div class="bar bar-bottom" aria-hidden="true"></div>
+
+    <nav class="nav" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="credits">
+      <p class="credit-line c1">GL Bajaj Institute of Technology &amp; Management presents</p>
+      <h1 class="title">
+        <span class="t-first">Vishesh</span>
+        <span class="t-last">Agrahari</span>
+      </h1>
+      <p class="credit-line c2">A developer building tools that fix everyday problems on campus and in the city</p>
+    </div>
+
+    <a class="scroll-cue" href="#about">Start the story</a>
+  </header>
+
+  <main>
+    <section class="scene about" id="about">
+      <h2 class="scene-title">About</h2>
+      <p class="lede">
+        I'm a second-year B.Tech student in Computer Science &amp; Information Technology at GL Bajaj.
+        I like products that sit between people and the systems that are supposed to serve them:
+        complaint desks, city services, campus infrastructure. Most of what I build starts with a
+        question like <em>why does reporting a broken tap take three emails?</em>
+      </p>
+      <p class="lede small">
+        Right now I'm leading a team of four on UNIFIX and working toward starting a company of my own.
+      </p>
+
+      <dl class="facts">
+        <div><dt>Studying</dt><dd>B.Tech CSIT, 2nd year</dd></div>
+        <div><dt>College</dt><dd>GL Bajaj Institute of Technology &amp; Management, Greater Noida</dd></div>
+        <div><dt>Focus</dt><dd>Full-stack web apps, civic tech, applied AI</dd></div>
+      </dl>
+    </section>
+
+    <section class="scene work" id="work">
+      <h2 class="scene-title">Work</h2>
+      <p class="hint">Select a project to see what it does and how it's built.</p>
+
+      <ul class="reel" id="reel"></ul>
+    </section>
+
+    <section class="scene skills" id="skills">
+      <h2 class="scene-title">Toolkit</h2>
+      <div class="skill-groups">
+        <div class="group">
+          <h3>Languages</h3>
+          <p>Python, JavaScript, HTML, CSS, SQL, C</p>
+        </div>
+        <div class="group">
+          <h3>Frameworks &amp; data</h3>
+          <p>Flask, PostgreSQL, Progressive Web Apps, REST APIs</p>
+        </div>
+        <div class="group">
+          <h3>AI &amp; integrations</h3>
+          <p>LLM APIs, text embeddings, WhatsApp intake bots, AI classification</p>
+        </div>
+        <div class="group">
+          <h3>Tools</h3>
+          <p>Git, GitHub, VS Code, Figma</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene journey" id="journey">
+      <h2 class="scene-title">Journey</h2>
+      <ol class="timeline">
+        <li>
+          <span class="year">2025</span>
+          <div>
+            <h3>Started B.Tech CSIT at GL Bajaj</h3>
+            <p>Began with web development labs: HTML, CSS and JavaScript sites like an online book store.</p>
+          </div>
+        </li>
+        <li>
+          <span class="year">2026</span>
+          <div>
+            <h3>Led the UNIFIX team</h3>
+            <p>Took a campus complaint platform from idea to a working Flask and PostgreSQL app with a team of four.</p>
+          </div>
+        </li>
+        <li>
+          <span class="year">2026</span>
+          <div>
+            <h3>Hackathons and civic-tech builds</h3>
+            <p>Worked on complaint dashboards, grievance workflows and AI-assisted issue routing.</p>
+          </div>
+        </li>
+        <li class="next">
+          <span class="year">Next</span>
+          <div>
+            <h3>Building a startup</h3>
+            <p>Turning one of these projects into a product people pay for.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="end-credits" id="contact">
+    <p class="fin">Let's build something</p>
+    <p class="end-sub">Open to internships, hackathon teams and early-stage startup work.</p>
+    <ul class="links">
+      <li><a id="email-link" href="#">Email me</a></li>
+      <li><a href="https://github.com/visheshagrahari597-afk" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a id="linkedin-link" href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+    <p class="copyright">&copy; <span id="year"></span> Vishesh Agrahari</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
